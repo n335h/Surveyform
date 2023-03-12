@@ -39,11 +39,12 @@ h1 {
 
 p {
   font-size: 1.125rem;
+  font-style: bold;
 }
 
 h1,
 p {
-  color: black;
+  color: White;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -95,14 +96,14 @@ button {
 .description {
   font-style: italic;
   font-weight: 200;
-  color:#8F7161;;
+  color:#8F7161;
 
 }
 
 .clue {
   margin-left: 0.25rem;
   font-size: 0.9rem;
-  color: #e4e4e4;
+  color: #8FB6A9;
 }
 
 .text-center {
@@ -115,6 +116,7 @@ form {
   background: #8F7161;
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
+ 
   
 }
 
