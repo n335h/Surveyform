@@ -16,13 +16,34 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: #FFDBC8;
+  background-image: linear-gradient(
+      115deg,
+      #FFDBC8,
+      rgba(143, 182, 169, 0.7)
+    ),
+    url(https://preview.redd.it/aj2ev6iwkde71.png?width=1676&format=png&auto=webp&v=enabled&s=34490e4cf91996cdd219b1c7c99e6bba559575f9);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
 
 #title {
   font-family: cinzel;
-  font-size: 50px;
+  font-size: 3rem;
   color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+
 }
 .logo {
 max-width:150px;
@@ -30,6 +51,8 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.1));
+
 }
 
 h1 {
@@ -95,7 +118,7 @@ button {
 
 .description {
   font-style: italic;
-  font-weight: 200;
+  font-weight: 100;
   color:#8F7161;
 
 }
@@ -163,7 +186,7 @@ margin-right: 1rem;
 }  
  .form-group1  {
   width: 150px;
-  text-size: 10px;
+  text-size: 1.25rem;
   display: grid;
   grid-row-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -178,7 +201,7 @@ width: 100%;
 
  .form-group2  {
   width: 200px;
-  text-size: 10px;
+  text-size: 1.25rem;
   display: grid;
   grid-row-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr;
