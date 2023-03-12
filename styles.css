@@ -186,7 +186,7 @@ margin-right: 1rem;
 }  
  .form-group1  {
   width: 150px;
-  text-size: 1.25rem;
+  font-size: 1.125rem;
   display: grid;
   grid-row-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -201,7 +201,7 @@ width: 100%;
 
  .form-group2  {
   width: 200px;
-  text-size: 1.25rem;
+  font-size: 1.125rem;
   display: grid;
   grid-row-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr;
